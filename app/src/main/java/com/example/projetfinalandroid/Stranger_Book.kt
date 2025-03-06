@@ -78,6 +78,48 @@ fun ScreenSB(){
                 .height(80.dp)
                 .background(Color.Transparent)
         ){
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.Center,
+                modifier = Modifier
+                    .fillMaxWidth(0.2f)
+                    .fillMaxHeight()
+            ){
+                Icon(
+                    imageVector = ImageVector.vectorResource(id = R.drawable.retour),
+                    contentDescription = "Icône SVG personnalisée",
+                    modifier = Modifier.size(26.dp),
+                    tint = Color.DarkGray
+                )
+            }
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.Center,
+                modifier = Modifier
+                    .fillMaxWidth(0.75f)
+                    .fillMaxHeight()
+            ){
+                Text(
+                    text = "My Match",
+                    fontSize = 30.sp,
+                    fontWeight = FontWeight.Bold,
+                    fontFamily = FontFamily.Cursive
+                )
+            }
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.Center,
+                modifier = Modifier
+                    .fillMaxWidth(1f)
+                    .fillMaxHeight()
+            ){
+                Icon(
+                    imageVector = ImageVector.vectorResource(id = R.drawable.points),
+                    contentDescription = "Icône SVG personnalisée",
+                    modifier = Modifier.size(30.dp),
+                    tint = Color.DarkGray
+                )
+            }
 
         }
         //End Header
