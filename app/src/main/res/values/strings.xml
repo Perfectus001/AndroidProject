@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Projet final Android</string>
+    <string name="title_activity_imc_app">IMC_APP</string>
+    <string name="title_activity_stranger_book">Stranger_Book</string>
+</resources>
