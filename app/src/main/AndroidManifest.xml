@@ -18,9 +18,6 @@
             android:label="@string/title_activity_stranger_book"
             android:theme="@style/Theme.ProjetFinalAndroid" />
         <activity
-            android:name=".StrangerBook"
-            android:exported="false" />
-        <activity
             android:name=".IMC_APP"
             android:exported="false"
             android:label="@string/title_activity_imc_app"
